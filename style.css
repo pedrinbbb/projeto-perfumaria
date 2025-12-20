@@ -1,0 +1,306 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+header{
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(0, 0, 0, 0.164));
+    text-align: center;
+}
+header  h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+}
+nav.menu > a{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+nav > a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(233, 173, 173);
+    transition: 0.5s;
+}
+div.fundo{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.427);
+    
+}
+.foto{
+    background-color: black;
+    height: 87vh;
+    background-image: url(img/perfumelogo.png);
+    background-position: center;
+    background-size: cover;
+}
+div.fundo > h1{
+    color: white;
+    padding-top: 210px;
+    padding-left: 36px;
+    font-size: 72px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+div.fundo > p{
+    color: white;
+    width: 300px;
+    padding-left: 36px;
+    padding-top:12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1.01em;
+
+}
+span{
+    color: rosybrown;
+}
+nav.botao{
+    margin: 40px 0px 20px 36px;
+}
+nav.botao a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+nav.botao > .explorar{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 14px;
+    border: 1px solid black;
+    margin-right: 16px;
+}
+nav.botao > .explorar:hover{
+    background-color: rgb(185, 185, 185);
+}
+nav.botao > .feminino{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 14px 6px 14px 6px;
+    color: white;
+
+}
+nav.botao > .feminino:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: black;
+}
+main{
+    max-width:1600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+main h1{
+    margin-top: 50px;
+    padding: 14px;
+    font-family: Montserrat;
+    font-weight: normal;
+
+}
+main p{ 
+    padding: 0px 14px 14px 14px;
+    font-family: Montserrat;
+    font-weight: normal;
+}
+main img{
+    display: inline-block;
+    width: 100px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 80px;
+    
+}
+main img:hover{
+    
+    background-color: wheat;
+    transition: 0.5s;
+}
+main a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-weight: normal;
+
+}
+.perfumes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0px 40px 0px;
+}
+section p{
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-weight: normal;
+    line-height: 1.0em;
+}
+.footer {
+  background: radial-gradient(circle at top, #111, #000);
+  color: #ccc;
+  padding: 60px 80px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.footer-col h2 {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.footer-col h3 {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 260px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+.newsletter form {
+  display: flex;
+  margin-top: 15px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #1a1a1a;
+  color: #fff;
+  width: 180px;
+}
+
+.newsletter button {
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  border-top: 1px solid #222;
+  margin-top: 50px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #777;
+}
+
+.footer-bottom a {
+  color: #777;
+}
+
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+@media (max-width:580px){
+    main img{
+        display: inline-block;
+        width: 60px;
+        border-radius: 10px;
+        background-color: aliceblue;
+        padding: 30px;
+    }
+    .perfumes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0px 40px 0px;
+}
+    }
+    @media(max-width: 465px){
+        div.fundo h1{
+            width: 320px;
+            font-size: 9vw;
+            padding-top: 120px;
+        }
+        div.fundo p{
+            font-size: 6vw;
+            width: 320px;
+        
+        }
+    }
+    @media(max-width: 350px){
+        nav.botao{
+            margin: 40px 5px 10px 0px;
+            padding: 5px;
+        }
+        nav.botao > .explorar{
+            font-size: 4vw;
+        }
+        nav.botao > .feminino{
+            font-size: 4vw;
+        }
+        
+    }
+    @media(max-width:465px){
+        header h1{
+            padding-top: 12px;
+            padding-left: 4px;
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
