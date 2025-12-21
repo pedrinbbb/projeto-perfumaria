@@ -114,13 +114,17 @@ main p{
     font-family: Montserrat;
     font-weight: normal;
 }
+img.fem{
+    background-color: rgb(242, 197, 197);
+}
+img.masc{
+    background-color: aliceblue;
+}
 main img{
     display: inline-block;
     width: 100px;
     border-radius: 10px;
-    background-color: aliceblue;
-    padding: 80px;
-    
+    padding: 48px ;
 }
 main img:hover{
     
@@ -228,7 +232,6 @@ section p{
 }
 
 
-
 /* Responsivo */
 @media (max-width: 790px) {
   .footer-container {
@@ -244,10 +247,9 @@ section p{
 @media (max-width:599px){
     main img{
         display: inline-block;
-        width: 60px;
+        width: 80px;
         border-radius: 10px;
-        background-color: aliceblue;
-        padding: 30px auto 30px auto;
+        padding: 20px auto;
     }
     .perfumes{
     display: flex;
@@ -289,10 +291,10 @@ section p{
     }
     @media(max-width:525px){
         section img{
-            width: 120px;
-            height: 120px;
-            padding: 0px;
-            margin: 10px;
+            width: 100px;
+            height: 100px;
+            padding: 20px 25px 20px 25px;
+            margin: 0px;
             font-size: 1vw;
         }
         section p, h2{
