@@ -118,9 +118,12 @@ main img{
     display: inline-block;
     width: 100px;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color:#ffb3f527;
     padding: 80px;
     
+}
+main img.masc{
+    background-color: aliceblue;
 }
 main img:hover{
     
@@ -218,7 +221,7 @@ section p{
 }
 
 .footer-col a {
-  color: #aaa;
+  color: #b1b1b1;
   text-decoration: none;
   font-size: 14px;
 }
