@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.perfumes img{
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(189, 189, 189), white);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 28px;
+    height: 66px;
+}
+nav{
+    display: flex;
+    padding: 14px;
+    background-color: white;
+    margin: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    border-radius: 8px;
+}
+nav a:hover{
+    background-color: aquamarine;
+    transition: 0.7s;
+}
+div.banner-perfume{
+    background-image: url(../img/perfumelogo.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 18px;
+}
+div.banner-perfume h1{
+    width: 190px;
+    padding-top: 120px;
+    padding-bottom: 6px;
+}
+div.banner-perfume p{
+    font-size: 1.3em;
+    padding-bottom: 24px;
+}
+div.banner-perfume a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    margin: 14px;
+    padding: 8px;
+    background-color: white;
+}
+div.banner-perfume a:hover{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    transition: 0.6s;
+}
+div.banner-perfume #feminino:hover{
+    background-color: rgb(221, 162, 162);
+}
+div.produtos{
+    margin-top: 22px;
+    padding: 24px;
+}
+div.perfumes img{
+    padding: 16px;
+    width: 100px;
+    background-color: aliceblue;
+}
+div.perfumes{
+    padding: 16px;
+    font-weight: normal;
+
+}
+section{
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #313131;
+    padding: 18px;
+}
+footer > div{
+    font-size: 14px;
+    width: 180px;
+    line-height: 1.5em;
+}
