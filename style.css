@@ -114,23 +114,17 @@ main p{
     font-family: Montserrat;
     font-weight: normal;
 }
-img.fem{
-    background-color: rgb(242, 197, 197);
-}
-img.masc{
-    background-color: aliceblue;
-}
 main img{
     width: 80px;
     border-radius: 10px;
     padding: 48px ;
 }
 main img.masc{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 main img:hover{
     
-    background-color: wheat;
+    background-color: rgba(0, 0, 0, 0.274);
     transition: 0.5s;
 }
 main a{
