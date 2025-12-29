@@ -54,10 +54,23 @@ div span.rosa{
     color: rosybrown;
 }
 section{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     padding: 12px;
 }
 section h3{
     padding-top: 38px;
     font-size: 1.6em;
+}
+aside img{
+    width: 102px;
+}
+aside{
+    padding: 38px 22px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
 
 }
