@@ -207,16 +207,6 @@ section p{
   line-height: 1.6;
   max-width: 260px;
 }
-
-.footer-col ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-col ul li {
-  margin-bottom: 12px;
-}
-
 .footer-col a {
   color: #b1b1b1;
   text-decoration: none;
@@ -305,6 +295,9 @@ section p{
         .foto{
             height: 620px;
         }
+    }
+    div.h1catalogo{
+        text-align: center;
     }
     
 
